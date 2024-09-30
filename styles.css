@@ -119,3 +119,10 @@ padding: 16px;
         grid-template-columns: 1fr 1fr;
     }
 }
+
+#Section4 {
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+    color: white;
+    scroll-margin: 47.5px;
+    font-size: 28px;
+}
