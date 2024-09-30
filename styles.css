@@ -4,9 +4,6 @@
     font-size: 28px;
 }
 
-#navlogo{
-    max-width: 400px;
-}
 
 #section2 {
     background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
@@ -93,4 +90,32 @@ padding: 16px;
     background-color: rgb(245, 240, 230);
     scroll-margin: 47.5px;
     font-size: 28px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+@media (max-width: 800px) {
+
+    #navbar a {
+        display: none;
+    }
+
+    img {
+        max-width: 75%;
+        height: auto;
+    }
+
+    h2, #s2head {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    #boxes {
+        grid-template-columns: 1fr 1fr;
+    }
 }
