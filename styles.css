@@ -38,8 +38,7 @@ text-align: center;
 position: sticky;
 top: 0;
 overflow: hidden;
-background-color: #333;
-width: 100rem;
+background-color: white;
 }
 
 #navbar a {
@@ -90,6 +89,7 @@ padding: 16px;
     background-color: rgb(245, 240, 230);
     scroll-margin: 47.5px;
     font-size: 28px;
+    width: 100%;
 }
 
 .img {
@@ -125,4 +125,5 @@ padding: 16px;
     color: white;
     scroll-margin: 47.5px;
     font-size: 28px;
+    width: 100%;
 }
