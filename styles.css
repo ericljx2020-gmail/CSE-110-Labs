@@ -1,0 +1,96 @@
+#section1 {
+    background-color: rgb(245, 240, 230);
+    scroll-margin: 47.5px;
+    font-size: 28px;
+}
+
+#navlogo{
+    max-width: 400px;
+}
+
+#section2 {
+    background-image: url(https://www.ucsd.edu/_resources/img/bg-orbs-1.jpg);
+    color: white;
+    scroll-margin: 47.5px;
+    font-size: 28px;
+}
+
+#section3 {
+    background-color: rgb(245, 240, 230);
+    scroll-margin: 47.5px;
+    font-size: 28px;
+}
+
+div{
+    display: inline-block;
+}
+
+body {
+    margin: 0;
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.header {
+background-color: #f1f1f1;
+padding: 30px;
+text-align: center;
+}
+
+#navbar {
+position: sticky;
+top: 0;
+overflow: hidden;
+background-color: #333;
+width: 100rem;
+}
+
+#navbar a {
+float: left;
+display: block;
+color: #182b49;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+font-size: 28px;
+}
+
+#navbar a:hover {
+background-color: #182b49;
+color: white;
+}
+
+#navbar a.active {
+background-color: #04AA6D;
+color: white;
+}
+
+.content {
+padding: 16px;
+}
+
+.text-box {
+    background-color: #182b49;
+    color: white;
+    padding: 20px;
+    max-height: 500px;
+    overflow-y: scroll;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#boxes{
+    background-color: rgb(245, 240, 230);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#section3 {
+    background-color: rgb(245, 240, 230);
+    scroll-margin: 47.5px;
+    font-size: 28px;
+}
